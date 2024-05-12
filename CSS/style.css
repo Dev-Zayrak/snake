@@ -26,3 +26,66 @@ nav a {
 nav a:hover{
     background-color: olive;
 }
+
+.accueil { 
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#principale{
+    padding: 0 1vw;
+    line-height: 1.9vw;
+    font-family: sans-serif;
+    background: #B0DBF1;
+    border-radius: 1%;
+}
+
+#principaleAccueil{
+    padding: 0 1vw;
+    line-height: 1.9vw;
+    font-family: sans-serif;
+    background: #B0DBF1;
+    border-radius: 1%;
+    margin: 10vh 22vw;
+}
+
+.solo{ margin: 0 27vw; }
+
+.double{ margin: 0 22vw; }
+
+#objectif{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.parent {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-weight: bold;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 1 / 4 / 2 / 5; }
+
+#pomme1 { color: green; }
+
+#pomme2 { color: black; }
+
+.informations ul{
+    margin: 0 auto;
+    color: blue;
+}
+
+.entete{
+    list-style-type: none;
+    color: red;
+    font-size: 18px;
+    text-decoration: underline ;
+}
